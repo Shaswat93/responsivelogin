@@ -1,0 +1,57 @@
+body {
+  background-color: transparent;
+}
+.form {
+  width: 350px;
+  border-radius: 25px;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  margin: 10rem auto;
+  /* background-color: aliceblue; */
+  background: rgb(0 0 0 / 25%);
+}
+
+h3 {
+  text-align: center;
+  /* text-decoration: underline; */
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 2rem !important;
+  font-family: "Montserrat", sans-serif;
+  color: #eba134;
+}
+#emailHelp {
+  color: #ebdeca !important;
+}
+label {
+  font-weight: 600;
+}
+.form-control {
+  border-radius: 10px !important;
+  font-size: 1rem !important;
+}
+
+.btn {
+  border-radius: 30px !important;
+}
+
+p {
+  font-size: 0.8rem;
+  color: aqua;
+}
+
+.signup {
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    margin: 10rem -10px !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .form {
+    margin: 10rem -8px !important;
+  }
+}

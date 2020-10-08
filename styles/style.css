@@ -1,0 +1,17 @@
+/* body { */
+/* background-color: #5d8fc9; */
+/* background-image: url("img/photo-1541701494587-cb58502866ab.jpg"); */
+/* background-image: url("img/abstract-background-colorful-spin-circle.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      font-family: "Open Sans", sans-serif;
+    } */
+html {
+  background: url("../img/abstract-background-colorful-spin-circle.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+.bg {
+  background-color: transparent;
+}

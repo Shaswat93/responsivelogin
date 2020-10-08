@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angular App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body ng-app="myApp" class="bg">
+    <!-- <div class="" ng-controller="myController">
+      <h4>{{message}}</h4>
+    </div> -->
+    <div ng-view></div>
+  </body>
+  <script>
+    var app = angular.module("myApp", ["ngRoute"]);
+    app.config(function ($routeProvider) {
+      $routeProvider.when("/", {
+        templateUrl: "components/login.html",
+      });
+    });
+    // app.controller("myController", function ($scope) {
+    //   $scope.message = "Hello from Somewhere";
+    // });
+  </script>
+</html>
